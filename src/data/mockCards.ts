@@ -1,0 +1,40 @@
+import { PaymentCard } from '../types';
+
+export const initialCards: PaymentCard[] = [
+  {
+    id: 'card_001',
+    cardNumber: '5412751234124253',
+    maskedNumber: '**** **** **** 4253',
+    cardHolder: 'Alexander Michael',
+    expiryDate: '09/28',
+    cvc: '843',
+    balance: 2887.65,
+    cardType: 'mastercard',
+    isDefault: true,
+    colorScheme: 'navy',
+  },
+  {
+    id: 'card_002',
+    cardNumber: '4111111111119024',
+    maskedNumber: '**** **** **** 9024',
+    cardHolder: 'Alexander Michael',
+    expiryDate: '11/27',
+    cvc: '129',
+    balance: 1420.5,
+    cardType: 'visa',
+    isDefault: false,
+    colorScheme: 'purple',
+  },
+  {
+    id: 'card_003',
+    cardNumber: '5500000000007812',
+    maskedNumber: '**** **** **** 7812',
+    cardHolder: 'Alexander Michael',
+    expiryDate: '04/29',
+    cvc: '492',
+    balance: 364.0,
+    cardType: 'debit',
+    isDefault: false,
+    colorScheme: 'darkNavy',
+  },
+];
