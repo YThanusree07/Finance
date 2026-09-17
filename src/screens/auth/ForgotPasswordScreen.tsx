@@ -18,7 +18,7 @@ export const ForgotPasswordScreen: React.FC<Props> = ({ navigation }) => {
 
   const handleSendVerification = () => {
     if (!email.trim() || !isValidEmail(email)) {
-      setError('Please enter your registered email address');
+      setError('Please enter your registered email address-Test');
       return;
     }
 
